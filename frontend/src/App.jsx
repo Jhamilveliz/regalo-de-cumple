@@ -8,6 +8,7 @@ function App() {
   const [birthday, setBirthday] = useState(false);
 
   // 📅 Calcula el próximo 16 de febrero automáticamente
+  /*
   const getNextBirthday = () => {
     const today = new Date();
     const year = today.getFullYear();
@@ -18,14 +19,14 @@ function App() {
     }
 
     return nextBirthday.toISOString();
-  };
+  }; */
 
   // FECHA DE PRUEBA (comentada - descomentar para testing)
-  /*
+
   const getNextBirthday = () => {
     return new Date(Date.now() + 8000).toISOString();
   };
-  */
+
 
   const targetDate = getNextBirthday();
 
